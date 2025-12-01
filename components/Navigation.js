@@ -17,8 +17,8 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="w-full max-w-2xl mx-auto px-4">
-      <div className="flex items-center justify-center gap-2 py-4">
+    <nav>
+      <div >
         <Link href="/" className={linkClasses('/')}>
           Home
         </Link>

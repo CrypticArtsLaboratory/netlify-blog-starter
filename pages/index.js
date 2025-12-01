@@ -11,32 +11,40 @@ export default function Index({ globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <div className="text-center py-20">
-          <h1 className="mb-8 text-4xl font-bold lg:text-6xl">
-            Welcome to {globalData.name}
-          </h1>
-          <p className="mb-12 text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            {globalData.blogTitle}
-          </p>
-          <div className="flex gap-4 justify-center">
-            <Link
-              href="/blog"
-              className="px-8 py-3 rounded-lg bg-gradient-to-r from-gradient-3 to-gradient-4 text-white font-semibold hover:opacity-90 transition-opacity"
-            >
-              View Blog
-            </Link>
+          <div className="flex gap-10 items-center justify-between">
+              <div className="w-1/2 ">
+                  <video
+                      autoPlay
+                      loop
+                      muted
+                      className="w-full rounded-lg"
+                  >
+                      <source src="/images/colors-of-life.mp4" type="video/mp4"/>
+                      Your browser does not support the video tag.
+                  </video>
+              </div>
+
+              <div className="w-1/2 top-0">
+                  <h1 className="mb-8 text-4xl font-bold lg:text-6xl">
+                      {globalData.name}
+                  </h1>
+                  <p className="mb-12 text-xl text-gray-600 dark:text-gray-400">
+                      <Link href="https://www.discogs.com/artist/208193-Don-Tinsley?superFilter=Credits">
+                          {globalData.blogTitle}
+                      </Link>
+                  </p>
+              </div>
           </div>
-        </div>
       </main>
       <Footer copyrightText={globalData.footerText} />
-      <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
-      />
-      <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
-      />
+      {/*<GradientBackground*/}
+      {/*  variant="large"*/}
+      {/*  className="fixed top-20 opacity-40 dark:opacity-60"*/}
+      {/*/>*/}
+      {/*<GradientBackground*/}
+      {/*  variant="small"*/}
+      {/*  className="absolute bottom-0 opacity-20 dark:opacity-10"*/}
+      {/*/>*/}
     </Layout>
   );
 }
