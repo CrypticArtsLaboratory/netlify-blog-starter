@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Don Tinsley';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Weaver of wondering threads';
+    : 'Discography ▷';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights deserved.';

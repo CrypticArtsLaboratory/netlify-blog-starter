@@ -29,7 +29,9 @@ export default function Index({ globalData }) {
                       {globalData.name}
                   </h1>
                   <p className="mb-12 text-xl text-gray-600 dark:text-gray-400">
-                      {/*{globalData.blogTitle}*/}
+                      <Link href="https://www.discogs.com/artist/208193-Don-Tinsley?superFilter=Credits">
+                          {globalData.blogTitle}
+                      </Link>
                   </p>
               </div>
           </div>
