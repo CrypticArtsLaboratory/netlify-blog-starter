@@ -1,3 +1,5 @@
+import portfolioData from 'data/profile.json';
+
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
@@ -10,6 +12,7 @@ export const getGlobalData = () => {
     : 'All rights deserved.';
 
   return {
+    portfolioData,
     name,
     blogTitle,
     footerText,
