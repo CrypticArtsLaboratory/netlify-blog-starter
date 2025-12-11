@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "Don Tinsley",
+    "title": "DON TINSLEY",
+    "subtitle": "Software Engineer • Producer • Visual Artist • DJ",
+    "email": "djdont@gmail.com",
+    "phone": "+1 ",
+    "discogs": "http://www.discogs.com/artist/Don+Tinsley",
+    "allowedArtists": [
+      "Don Tinsley",
+      "East St Louis Players",
+      "Monad",
+      "Soul Bloom",
+      "Sub-stance",
+      "Urban Jazz Naturals"
+    ]
+  },
+  "music": {
+    "label": "Music Production",
+    "title": "Crafting Electronic Experiences Since 1988",
+    "description": "From underground warehouse parties to international festivals, creating immersive sonic journeys that transcend boundaries.",
+    "projects": "84 Glyde • Urban Jazz Naturals • Magnificent Lovers • Monad • SUB-STANCE"
+  },
+  "visualArt": {
+    "label": "Visual Art",
+    "title": "Graphic Design",
+    "intro": {
+      "heading": "Event Poster Design & Visual Identity",
+      "description": [
+        "Creating immersive visual experiences for electronic music events since 1988. From the Seven Virtues series to bold graphic designs for underground warehouse parties and festival culture.",
+        "Each piece combines symbolism, bold typography, and graphic design principles to capture the essence of the music and the moment."
+      ]
+    }
+  }
+}
